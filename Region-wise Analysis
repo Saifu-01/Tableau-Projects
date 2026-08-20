@@ -1,1 +1,134 @@
-Region-Wise Analysis and Deep Dive Analysis projects.
+# 📊 Region-Wise Analysis & Deep Dive | Tableau
+
+## 📌 Project Overview
+
+The **Region-Wise Analysis & Deep Dive** project is an interactive Tableau analytics solution developed using the **Sample Superstore** dataset to evaluate business performance across the **Central, East, South, and West** regions.
+
+The project provides a comprehensive view of regional performance by analyzing **Sales, Profit, Quantity, Orders, Customers, Products, Discounts, and Returns**. The analysis begins with high-level regional KPIs and then progresses into a detailed Deep Dive to identify the products, sub-categories, and time periods driving business performance.
+
+The objective is to transform raw transactional data into meaningful insights that can support **regional planning, product strategy, inventory decisions, promotional planning, profitability improvement, and future forecasting**.
+
+---
+
+# 🎯 Business Problem
+
+Stakeholders need to understand how business performance varies across different regions and identify the key factors contributing to high and low performance.
+
+The analysis focuses on questions such as:
+
+- Which region generates the highest sales and profit?
+- Which products and sub-categories are driving regional performance?
+- Which products contribute the most to profitability?
+- Which months demonstrate strong or weak performance?
+- Where are discounts and returns concentrated?
+- Which products or categories require further investigation?
+- How can historical performance support future business decisions?
+
+---
+
+# 📂 Dataset
+
+The dataset was sourced from the **"Introduction to Business Analytics and Big Data"** coursework at **Florida Atlantic University (FAU)** as the **Sample Superstore** dataset.
+
+The original dataset contains multiple sheets, including:
+
+- Orders
+- Region
+- Products
+- Customers
+- Returns
+- People
+
+For this project, the analysis primarily uses:
+
+### Orders
+The Orders dataset contains information related to:
+
+- Order Date
+- Ship Date
+- Ship Mode
+- Customer ID
+- Customer Name
+- Segment
+- Country
+- City
+- State
+- Postal Code
+- Region
+- Product ID
+- Category
+- Sub-Category
+- Product Name
+- Sales
+- Quantity
+- Discount
+- Profit
+
+### Returns
+
+The Returns table contains:
+
+- Returned
+- Order ID
+
+### Dataset Size
+
+- **Orders:** 209,895 records
+- **Returns:** 594 records
+
+📂 **[View Dataset](./Sample-Superstore-Dataset.xlsx)**
+
+---
+
+# 🛠️ Tech Stack
+
+### Visualization & Business Intelligence
+- Tableau
+
+### Data Analysis
+- Data Cleaning
+- Data Modeling
+- Exploratory Data Analysis
+- KPI Analysis
+- Comparative Analysis
+- Trend Analysis
+- Top 5 Analysis
+
+### Tableau Features
+- Calculated Fields
+- Parameters
+- Sets
+- Filters
+- Dashboard Actions
+- Table Calculations
+- Geographic Maps
+- KPI Cards
+- Interactive Dashboards
+- Data Storytelling
+
+---
+
+# 🔄 Analytical Approach
+
+The project follows a structured business analytics workflow:
+
+```text
+Business Problem
+       ↓
+Data Understanding
+       ↓
+Data Preparation
+       ↓
+Data Modeling
+       ↓
+Calculated Fields & Parameters
+       ↓
+Visualization Development
+       ↓
+Region-Wise Analysis
+       ↓
+Deep Dive Analysis
+       ↓
+Key Insights
+       ↓
+Strategic Recommendations
