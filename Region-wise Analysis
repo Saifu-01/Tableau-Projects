@@ -1,134 +1,47 @@
-# 📊 Region-Wise Analysis & Deep Dive | Tableau
+📊 Region-Wise Analysis & Deep Dive Analysis
 
-## 📌 Project Overview
+Project Overview
+This Tableau project analyzes **Sample Superstore Orders and Returns data to evaluate business performance across the Central, East, South and West regions. The project is designed to provide stakeholders with an interactive view of sales, profit, customers, orders, quantity, discounts, products, sub-categories and returns, helping identify regional performance differences and key business trends.
 
-The **Region-Wise Analysis & Deep Dive** project is an interactive Tableau analytics solution developed using the **Sample Superstore** dataset to evaluate business performance across the **Central, East, South, and West** regions.
-
-The project provides a comprehensive view of regional performance by analyzing **Sales, Profit, Quantity, Orders, Customers, Products, Discounts, and Returns**. The analysis begins with high-level regional KPIs and then progresses into a detailed Deep Dive to identify the products, sub-categories, and time periods driving business performance.
-
-The objective is to transform raw transactional data into meaningful insights that can support **regional planning, product strategy, inventory decisions, promotional planning, profitability improvement, and future forecasting**.
-
----
-
-# 🎯 Business Problem
-
-Stakeholders need to understand how business performance varies across different regions and identify the key factors contributing to high and low performance.
-
-The analysis focuses on questions such as:
-
-- Which region generates the highest sales and profit?
-- Which products and sub-categories are driving regional performance?
-- Which products contribute the most to profitability?
-- Which months demonstrate strong or weak performance?
-- Where are discounts and returns concentrated?
-- Which products or categories require further investigation?
-- How can historical performance support future business decisions?
-
----
-
-# 📂 Dataset
-
-The dataset was sourced from the **"Introduction to Business Analytics and Big Data"** coursework at **Florida Atlantic University (FAU)** as the **Sample Superstore** dataset.
-
-The original dataset contains multiple sheets, including:
-
-- Orders
-- Region
-- Products
-- Customers
-- Returns
-- People
-
-For this project, the analysis primarily uses:
-
-### Orders
-The Orders dataset contains information related to:
-
-- Order Date
-- Ship Date
-- Ship Mode
-- Customer ID
-- Customer Name
-- Segment
-- Country
-- City
-- State
-- Postal Code
-- Region
-- Product ID
-- Category
-- Sub-Category
-- Product Name
-- Sales
-- Quantity
-- Discount
-- Profit
-
-### Returns
-
-The Returns table contains:
-
-- Returned
-- Order ID
-
-### Dataset Size
-
-- **Orders:** 209,895 records
-- **Returns:** 594 records
-
-📂 **[View Dataset](./Sample-Superstore-Dataset.xlsx)**
-
----
-
-# 🛠️ Tech Stack
-
-### Visualization & Business Intelligence
-- Tableau
-
-### Data Analysis
-- Data Cleaning
-- Data Modeling
-- Exploratory Data Analysis
-- KPI Analysis
-- Comparative Analysis
-- Trend Analysis
-- Top 5 Analysis
-
-### Tableau Features
-- Calculated Fields
-- Parameters
-- Sets
-- Filters
-- Dashboard Actions
-- Table Calculations
-- Geographic Maps
-- KPI Cards
-- Interactive Dashboards
-- Data Storytelling
-
----
-
-# 🔄 Analytical Approach
-
-The project follows a structured business analytics workflow:
-
-```text
-Business Problem
-       ↓
-Data Understanding
-       ↓
-Data Preparation
-       ↓
-Data Modeling
-       ↓
-Calculated Fields & Parameters
-       ↓
-Visualization Development
-       ↓
+🔍 Analysis Covered
 Region-Wise Analysis
-       ↓
+Provides a high-level comparison of the four regions using key performance indicators and interactive visualizations to evaluate:
+	Sales and Profit
+	Customers and Orders
+	Products and Quantity
+	Discounts and Returns
+	Regional and sub-category performance
+	Quarterly sales trends
+
 Deep Dive Analysis
-       ↓
-Key Insights
-       ↓
-Strategic Recommendations
+Provides a more detailed exploration of regional performance by analyzing:
+	Top 5 sub-categories by Sales and Profit
+	Monthly Sales and Profit trends
+	Monthly Quantity, Discounts, Orders and Returns
+	Top-performing products
+
+
+	Product-level Sales, Profit, Quantity, Discount, and Order analysis
+	Regional comparisons and drill-down insights
+
+🎯 Business Objective
+The objective is to move from high-level regional reporting to **actionable business insights** by identifying high- and low-performing regions, products, sub-categories, and time periods. The analysis can support decisions related to product strategy, regional planning, inventory, promotions, profitability and future business forecasting.
+
+🛠️ Tools & Tableau Features
+	Tableau
+	Interactive Dashboards
+	Calculated Fields
+	Parameters
+	Sets
+	Filters
+	Dashboard Actions
+	KPI Cards
+	Geographic Maps
+	Top 5 Analysis
+	Trend Analysis
+	Data Storytelling
+
+📌 Key Takeaway
+The project demonstrates how Tableau can transform raw transactional data into an Interactive analytical solution, allowing users to move from regional performance overview to detailed product, sub-category, and monthly analysis.
+For the complete methodology, data preparation, analysis, insights and strategic recommendations, refer to the project documentation included in this repository.
+Project Link : https://public.tableau.com/shared/W79KKH96F?:display_count=n&:origin=viz_share_link
