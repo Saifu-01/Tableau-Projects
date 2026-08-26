@@ -1,0 +1,197 @@
+# 📊 Telecom Customer Churn Analytics
+
+## 🔎 Project Overview
+
+**Telecom Customer Churn Analytics** is an interactive Tableau analytics project designed to understand **customer churn, retention, revenue contribution, refund behavior, service usage, and long-term customer value**.
+
+The project analyzes customer behavior from multiple perspectives to identify patterns associated with **Churned, Stayed, and Joined** customers and translate those patterns into actionable business insights.
+
+---
+
+## 🎯 Business Objective
+
+The primary objective is to understand:
+
+* Why customers may churn or remain with the company
+* How **tenure** influences revenue and service consumption
+* Which customers contribute the highest revenue
+* How refund activity may indicate potential dissatisfaction
+* How contract type, customer status, and demographics influence customer behavior
+* Which customer segments should receive greater retention and engagement attention
+
+The analysis ultimately focuses on improving **customer retention, financial efficiency, and customer lifetime value**.
+
+---
+
+## 📈 Customer Landscape
+
+The project begins with an overview of the customer base:
+
+* 🔴 **27% — Churned**
+* 🟢 **67% — Stayed**
+* 🔵 **6% — Joined**
+
+This provides the foundation for understanding the scale of customer churn and retention before moving into deeper analysis.
+
+---
+
+## 🧮 Analytical Approach
+
+The project uses three analytical perspectives:
+
+### 1️⃣ Univariate Analysis
+
+Individual variables are examined independently to establish a descriptive baseline.
+
+Revenue and refund metrics can be dynamically analyzed using **Sum, Average, Minimum, and Maximum** aggregations.
+
+### 2️⃣ Bivariate Analysis
+
+Relationships between two variables are explored to identify behavioral patterns.
+
+Examples include:
+
+* 📈 Average Monthly Charge vs. Tenure
+* 💰 Average Total Charges vs. Customer Status
+* 📊 Spending patterns across Joined, Stayed, and Churned customers
+
+### 3️⃣ Multivariate Analysis
+
+Multiple variables are analyzed simultaneously to identify deeper customer patterns.
+
+The analysis combines:
+
+* Tenure
+* Revenue
+* Refunds
+* Service charges
+* Customer status
+* Demographics
+* Internet type
+* Data usage
+* Unlimited Data
+
+---
+
+## 📊 What's Inside the Dashboard?
+
+The Tableau dashboard includes:
+
+* 📌 Customer churn overview
+* 💰 Revenue & refund analysis
+* 📈 Tenure and spending analysis
+* 👥 Customer status comparison
+* 📡 Service usage analysis
+* ⭐ High-value customer analysis
+* 🔎 Top 10 customer identification
+* 🧑‍💼 Detailed customer-level analysis
+* 🌎 Geographic and demographic context
+* 🎛️ Interactive filters and parameters
+* 📍 Trend lines and average benchmarks
+* 🔄 Interactive dashboard actions
+
+---
+
+## ⭐ High-Value Customer Analysis
+
+A dedicated analysis identifies customers based on **high revenue contribution and lower refund activity**.
+
+The dashboard uses:
+
+* Top 10 Limit Parameter
+* Revenue ranking — Descending
+* Refund ranking — Ascending
+* Interactive Top 10 filtering
+
+This allows the analysis to move beyond simply identifying high-revenue customers and instead focus on customers demonstrating stronger overall financial value.
+
+---
+
+## 🎛️ Interactive Features
+
+The dashboard is designed for exploration rather than static reporting.
+
+Users can dynamically investigate customer segments using:
+
+* Tenure filters
+* Contract Type filters
+* Customer Status filters
+* Revenue & Refund aggregation parameters
+* Top 10 customer controls
+* Dashboard actions
+* Geographic selections
+
+An external **Google/Wikipedia integration** also provides additional geographic and demographic context when exploring cities.
+
+---
+
+## 💡 Key Business Insight
+
+The analysis highlights a strong relationship between **customer tenure, revenue, and service consumption**.
+
+Customers who remain with the company longer tend to generate greater revenue and expand their consumption across multiple service categories.
+
+At the same time, **refund activity and variations in monthly charges** can provide useful signals of potential dissatisfaction earlier in the customer lifecycle.
+
+### 💭 Central Business Takeaway
+
+> **Long-term customer relationships drive long-term revenue.**
+
+The findings suggest that retaining and nurturing valuable existing customers can be as important as acquiring new customers when the objective is to maximize long-term customer value.
+
+---
+
+## 🎯 Business Applications
+
+The insights from this project can support:
+
+* Customer retention strategies
+* High-value customer identification
+* Churn-risk monitoring
+* Targeted customer engagement
+* Revenue optimization
+* Service usage analysis
+* Customer lifetime value improvement
+* Data-driven business decision-making
+
+---
+
+## 🔮 Future Enhancements
+
+Future iterations could extend the project from descriptive analytics into predictive analytics by incorporating:
+
+* 🤖 Churn prediction modeling
+* 💵 Customer Lifetime Value (CLV) modeling
+* 🎯 Advanced customer segmentation
+* 📊 Predictive risk scoring
+* 🔍 Deeper demographic analysis
+* 🚨 Early-warning churn indicators
+* 📈 Retention campaign effectiveness analysis
+
+---
+
+## 🛠️ Tools & Technologies
+
+**Primary Tool:** Tableau
+
+**Analytical Techniques:**
+Univariate Analysis • Bivariate Analysis • Multivariate Analysis • Ranking • Trend Analysis • Segmentation
+
+**Visualization Techniques:**
+KPI Cards • Line Charts • Bar Charts • Area Charts • Tables • Trend Lines • Average Lines • Interactive Filters • Parameters • Dashboard Actions
+
+---
+
+## 📁 Repository Contents
+
+This repository contains the project resources, including the **Tableau workbook, project documentation, analysis materials, and supporting files** used to develop and communicate the Telecom Customer Churn Analytics project.
+
+---
+
+## 📌 Project Summary
+
+This project demonstrates how customer-level data can be transformed into a structured **business analytics and decision-support solution**.
+
+The analysis connects **churn, tenure, revenue, refunds, service usage, and customer characteristics** to provide a more complete understanding of customer value and retention opportunities.
+
+**From understanding who is leaving → to understanding who creates value → to identifying where retention efforts can have the greatest impact.** 📊🎯
